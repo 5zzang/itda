@@ -13,17 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jekyll Powered Start Bootstrap Template
-email: 5zzang@gmail.com
-description: Stylish Portfolio is a responsive, one page portfolio theme for Bootstrap created by Start Bootstrap. The theme features multiple content sections with an off canvas navigation menu.
+title: 잇다 - 정성을 담다.
+email: 5zzang+itda@gmail.com
+description: 잇다를 찾아주셔서 감사합니다. 
 
-keywords: jekyll, bootstrap, jekyll-site, jekyll-website, html, bootstrap4, bootstrap-4, bootstrap-theme, bootstrap-template, portfolio-website, portfolio-theme, open-source, free, google-anaytics, github-pages
+keywords: 잇다, 밀키트, 오리고기, 오리주물럭, 반만요리해, 캠핑메이트, 한끼뚝딱, 간편조리식
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://itda.5zzang.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  5zzang
-facebook_username:  "#"
+facebook_username:  5zzang
 twitter_username:  5zzang
 google_analytics_tracking_id: UA-129738661-1
 # Build settings
@@ -31,6 +31,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 incremental: true
 
 # Exclude from processing.
